@@ -25,7 +25,8 @@ jobs:
       - name: Check out 3Dwork Auto Builder Repo repo
         uses: actions/checkout@v4
         with:
-          repository: Klipper3d/klipper
+          # repository: Klipper3d/klipper
+          github-server-url: https://github.com/Klipper3d/klipper.git
 
       - name: Shows files content
         uses: the-coding-turtle/ga-file-list@v0.2
