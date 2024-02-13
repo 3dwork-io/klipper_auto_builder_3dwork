@@ -27,6 +27,9 @@ jobs:
         with:
           repository: Klipper3d/klipper
 
+      - name: Shows files content
+        uses: the-coding-turtle/ga-file-list@v0.2
+
       - name: Install Klipper
         run: | 
           git clone https://github.com/Klipper3d/klipper
