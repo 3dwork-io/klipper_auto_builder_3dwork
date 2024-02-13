@@ -2,7 +2,7 @@
 
 > \[!WARNING\]  
 > Klipper binaries are created daily, **use at your own risk**. Review compilation badge for succesfully build!!!  
-> Suggested to take the config files and compile yourself, [compilation guide](https://klipper.3dwork.io/klipper/instalacion#creando-nuestro-firmware-klipper).
+> Suggested to take the config files and compile yourself, [compilation guide](https://klipper.3dwork.io/klipper/instalacion#creando-nuestro-firmware-klipper).  
 
 | ![3Dwork_Klipper_Compile_Binaries](https://github.com/3dwork-io/klipper_auto_builder_3dwork/actions/workflows/compile-binaries.yml/badge.svg)               |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
