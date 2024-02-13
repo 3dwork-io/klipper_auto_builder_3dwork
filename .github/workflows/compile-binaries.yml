@@ -34,7 +34,7 @@ jobs:
 
       - name: Install Klipper
         run: | 
-          chmod +x ${{ github.workspace }}/*.sh
+          chmod +x ${{ github.workspace }}/klipper/scripts/*.sh
           ${{ github.workspace }}/klipper/scripts/install-ubuntu-22.04.sh
 
       - name: Check out 3Dwork Auto Builder Repo repo
