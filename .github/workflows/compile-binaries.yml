@@ -19,16 +19,21 @@ jobs:
       BOARD: sanguino1284p_optimized
 
     steps:
-      - name: Check out repo
+      - name: Enable Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10' 
+          python-version: '3.10'
 
-      - name: Check out repo
+      - name: Check out 3Dwork Auto Builder Repo repo
         uses: actions/checkout@v4
+        with:
+          repository: Klipper3d/klipper
 
-      - name: Clone Klipper
+      - name: Install Klipper
         run: | 
           git clone https://github.com/Klipper3d/klipper
           ./klipper/scripts/install-ubuntu-2204.sh
+
+      - name: Check out 3Dwork Auto Builder Repo repo
+        uses: actions/checkout@v4
 
