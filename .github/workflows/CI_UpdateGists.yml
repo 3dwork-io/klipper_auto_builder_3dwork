@@ -16,7 +16,7 @@ jobs:
       - name: Checkout code for marlin_auto_builder_3dwork
         uses: actions/checkout@v3
 
-      - name: Creating start_print.cfg Gist
+      - name: Creating readme Gist
         uses: exuanbo/actions-deploy-gist@v1
         with:
             token: ${{ secrets.COMMIT_TOKEN }}
