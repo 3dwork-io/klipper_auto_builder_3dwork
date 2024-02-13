@@ -289,7 +289,7 @@ set -e
 if [ ! -d "$github_workspace_3dwork/firmware_binaries" ]
 then
     mkdir $github_workspace_3dwork/firmware_binaries
-    chown $github_workspace_3dwork/firmware_binaries
+    chown -R $(whoami) $github_workspace_3dwork/firmware_binaries
 fi
 
 
@@ -342,6 +342,6 @@ else
     fi
 fi
 
-chown pi:pi $github_workspace_3dwork/firmware_binaries/*.bin
+chown -R $(whoami) $github_workspace_3dwork/firmware_binaries/*.bin
 
 popd
