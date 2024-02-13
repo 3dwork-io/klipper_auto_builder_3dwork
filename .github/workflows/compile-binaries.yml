@@ -22,12 +22,11 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Check out 3Dwork Auto Builder Repo repo
+      - name: Check out Klipper repo
         uses: actions/checkout@v4
         with:
-          # repository: Klipper3d/klipper
-          github-server-url: https://github.com/Klipper3d/klipper.git
-          path: /home/runner/work/klipper_auto_builder_3dwork/klipper_auto_builder_3dwork
+          repository: Klipper3d/klipper
+          path: ${{ github.workspace }}/klipper
 
       - name: Shows files content
         run: |
