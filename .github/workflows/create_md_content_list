@@ -1,0 +1,41 @@
+name: Generate Content Listing
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-listing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Generate Content Listing
+        id: generate-list
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          folder-path: 'path/to/your/folder'
+          file-extension: '.md'
+          use-quiet-mode: 'yes'
+          use-verbose-mode: 'yes'
+          max-depth: 1
+
+      - name: Create Markdown File
+        run: |
+          echo "# Content Listing" > content-listing.md
+          echo "" >> content-listing.md
+          cat "${{ steps.generate-list.outputs.output-file }}" >> content-listing.md
+
+      - name: Add GitHub Links
+        run: |
+          sed -i 's#\(.*\)#\1#' content-listing.md
+
+      - name: Commit Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add content-listing.md
+          git commit -m "Generate content listing with GitHub links"
+          git push
