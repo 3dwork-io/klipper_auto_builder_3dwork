@@ -23,20 +23,19 @@ jobs:
           python-version: '3.10'
 
       - name: Check out Klipper repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: Klipper3d/klipper
           path: ${{ github.workspace }}/klipper
 
       - name: Shows files content
         run: |
-          ls ${{ github.workspace }}
-          ls ${{ github.workspace }}/klipper/
-          ls ${{ github.workspace }}/klipper/scripts/
+          ls -R
 
       - name: Install Klipper
         run: | 
-          sudo ${{ github.workspace }}/klipper/scripts/install-ubuntu-22.04.sh
+          chmod +x ${{ github.workspace }}/*.sh
+          ${{ github.workspace }}/klipper/scripts/install-ubuntu-22.04.sh
 
       - name: Check out 3Dwork Auto Builder Repo repo
         uses: actions/checkout@v4
