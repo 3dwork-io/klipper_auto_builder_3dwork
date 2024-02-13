@@ -34,7 +34,7 @@ jobs:
 
       - name: Install Klipper
         run: | 
-          ./klipper/scripts/install-ubuntu-22.04.sh
+          .${{ github.workspace }}/klipper/scripts/install-ubuntu-22.04.sh
 
       - name: Check out 3Dwork Auto Builder Repo repo
         uses: actions/checkout@v4
