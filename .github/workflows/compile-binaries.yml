@@ -28,10 +28,6 @@ jobs:
           repository: Klipper3d/klipper
           path: ${{ github.workspace }}/klipper
 
-      - name: Shows files content
-        run: |
-          ls -R
-
       - name: Install Klipper
         run: | 
           chmod +x ${{ github.workspace }}/klipper/scripts/*.sh
@@ -39,4 +35,16 @@ jobs:
 
       - name: Check out 3Dwork Auto Builder Repo repo
         uses: actions/checkout@v4
+        with:
+          repository: Klipper3d/klipper
+          path: ${{ github.workspace }}/3dwork
+        
+      - name: Install Klipper
+        run: | 
+          chmod +x ${{ github.workspace }}/compile-binaries.sh
+          ${{ github.workspace }}/compile-binaries.sh
+      
+      - name: Shows files content
+        run: |
+          ls -R
 
