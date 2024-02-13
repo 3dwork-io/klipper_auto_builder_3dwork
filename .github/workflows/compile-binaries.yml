@@ -37,15 +37,25 @@ jobs:
         uses: actions/checkout@v4
         with:
           path: ${{ github.workspace }}/3dwork
-      
-      - name: Shows files content
-        run: |
-          ls -R
         
       - name: Compile Klipper Firmware for Boards
         run: | 
           chmod +x ${{ github.workspace }}/3dwork/compile-binaries.sh
           ${{ github.workspace }}/3dwork/compile-binaries.sh
+
+      - name: Shows files content
+        run: |
+          ls -R
+
+      - name: Push Compiled Klipper Firmwares
+        run: |
+          cd ${{ github.workspace }}/3dwork
+          git config --global user.name "JJR Bot"
+          git config --global user.email "jrodriguez@qitec.net"
+          git pull origin master --ff-only
+          git add .
+          git commit -m "Compiled firmware"
+          git push "https://${{ github.actor }}:${{ secrets.COMMIT_TOKEN }}@github.com/${{ github.repository }}.git"
       
 
 
