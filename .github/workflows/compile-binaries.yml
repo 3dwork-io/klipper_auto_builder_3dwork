@@ -1,11 +1,13 @@
 name: Klipper_Compile_Binaries
 
 on:
+  schedule:
+    - cron: "0 0 * * *"
   push:
     branches:
       - main
     paths:
-      - 'trigger.md'
+      - 'compile-binaries.sh'
 permissions:
   contents: write
   issues: write
