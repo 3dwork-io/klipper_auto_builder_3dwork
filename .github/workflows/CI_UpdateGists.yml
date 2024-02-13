@@ -1,0 +1,25 @@
+name: CI - Update Gists from Repository
+on:
+    push:
+      branches:
+        - main
+      paths:
+        - 'readme.md'
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code for marlin_auto_builder_3dwork
+        uses: actions/checkout@v3
+
+      - name: Creating start_print.cfg Gist
+        uses: exuanbo/actions-deploy-gist@v1
+        with:
+            token: ${{ secrets.COMMIT_TOKEN }}
+            gist_id: ee10a0c32420ef6c082c1344a51059f3
+            file_path: readme.md
+            file_type: binary
