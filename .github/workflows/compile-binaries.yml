@@ -31,6 +31,8 @@ jobs:
       - name: Shows files content
         run: |
           ls ${{ github.workspace }}
+          ls ${{ github.workspace }}/klipper/
+          ls ${{ github.workspace }}/klipper/scripts/
 
       - name: Install Klipper
         run: | 
