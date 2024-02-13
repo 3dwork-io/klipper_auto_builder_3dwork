@@ -29,7 +29,8 @@ jobs:
           github-server-url: https://github.com/Klipper3d/klipper.git
 
       - name: Shows files content
-        uses: the-coding-turtle/ga-file-list@v0.2
+        run: |
+          ls ${{ github.workspace }}
 
       - name: Install Klipper
         run: | 
