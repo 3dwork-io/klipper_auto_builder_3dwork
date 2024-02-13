@@ -15,8 +15,6 @@ jobs:
   build_and_push:
     name: Compile and Push Firmware
     runs-on: ubuntu-latest
-    env:
-      BOARD: sanguino1284p_optimized
 
     steps:
       - name: Enable Python
@@ -32,7 +30,7 @@ jobs:
       - name: Install Klipper
         run: | 
           git clone https://github.com/Klipper3d/klipper
-          ./klipper/scripts/install-ubuntu-2204.sh
+          /klipper/scripts/install-ubuntu-2204.sh
 
       - name: Check out 3Dwork Auto Builder Repo repo
         uses: actions/checkout@v4
