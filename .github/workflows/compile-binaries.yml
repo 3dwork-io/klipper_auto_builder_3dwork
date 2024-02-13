@@ -41,8 +41,8 @@ jobs:
         
       - name: Install Klipper
         run: | 
-          chmod +x ${{ github.workspace }}/compile-binaries.sh
-          ${{ github.workspace }}/compile-binaries.sh
+          chmod +x ${{ github.workspace }}/3dwork/compile-binaries.sh
+          ${{ github.workspace }}/3dwork/compile-binaries.sh
       
       - name: Shows files content
         run: |
