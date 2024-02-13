@@ -3,7 +3,7 @@ name: Klipper_Compile_Binaries
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - 'trigger.md'
 permissions:
