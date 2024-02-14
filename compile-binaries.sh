@@ -127,7 +127,7 @@ compile_btt-skr-2-429() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries=/firmware_binaries/firmware-btt-skr-2-429.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-skr-2-429.bin
 }
 
 compile_btt-skr-2-407() {
