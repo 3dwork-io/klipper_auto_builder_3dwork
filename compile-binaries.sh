@@ -1,5 +1,5 @@
 #!/bin/bash
-
+ 
 workspace_klipper="/home/runner/work/klipper_auto_builder_3dwork/klipper_auto_builder_3dwork/klipper"
 workspace_3dwork="/home/runner/work/klipper_auto_builder_3dwork/klipper_auto_builder_3dwork"
 workspace_firmware_binaries="/home/runner/work/klipper_auto_builder_3dwork/klipper_auto_builder_3dwork/3dwork-klipper"
