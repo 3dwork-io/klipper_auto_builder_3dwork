@@ -21,5 +21,5 @@ jobs:
         with:
             token: ${{ secrets.COMMIT_TOKEN }}
             gist_id: ee10a0c32420ef6c082c1344a51059f3
-            file_path: readme.md
+            file_path: README.md
             file_type: binary
