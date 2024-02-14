@@ -310,6 +310,15 @@ compile_mks-robin-nano-20() {
     cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-mks-robin-nano-20.bin
 }
 
+compile_mks-gen-l() {
+    echo "Compiling firmware for MKS Gen L"
+    cp -f $workspace_3dwork/3dwork-klipper/boards/mks-gen-l/firmware.config $workspace_klipper/.config
+    make olddefconfig
+    make clean
+    make
+    cp $workspace_klipper/out/klipper.elf.hex $workspace_firmware_binaries/firmware_binaries/firmware-mks-gen-l.hex
+}
+
 # Force script to exit if an error occurs
 set -e
 
@@ -354,6 +363,7 @@ if [ -z "$1" ]; then
     compile_mks-eagle-10
     compile_mks-robin-nano-30
     compile_mks-robin-nano-20
+    compile_mks-gen-l
     # Fysetc
     compile_fysetc_spider
     # Mellow
