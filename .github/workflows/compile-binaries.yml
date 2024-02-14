@@ -38,12 +38,12 @@ jobs:
       - name: Check out 3Dwork Auto Builder Repo repo
         uses: actions/checkout@v4
         with:
-          path: ${{ github.workspace }}/3dwork
+          path: ${{ github.workspace }}/3dwork-klipper
         
       - name: Compile Klipper Firmware for Boards
         run: | 
-          chmod +x ${{ github.workspace }}/3dwork/compile-binaries.sh
-          ${{ github.workspace }}/3dwork/compile-binaries.sh
+          chmod +x ${{ github.workspace }}/3dwork-klipper/compile-binaries.sh
+          ${{ github.workspace }}/3dwork-klipper/compile-binaries.sh
 
       - name: Shows files content
         run: |
@@ -51,7 +51,7 @@ jobs:
 
       - name: Push Compiled Klipper Firmwares
         run: |
-          cd ${{ github.workspace }}/3dwork
+          cd ${{ github.workspace }}/3dwork-klipper
           git config --global user.name "JJR Bot"
           git config --global user.email "jrodriguez@qitec.net"
           git pull origin main --ff-only
