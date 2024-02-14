@@ -45,5 +45,6 @@
 | [firmware-mks-eagle-10.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-mks-eagle-10.bin)                 | **USB**    |
 | [firmware-mks-robin-nano-20.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-mks-robin-nano-20.bin)       | **USB**    |
 | [firmware-mks-robin-nano-30.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-mks-robin-nano-30.bin)       | **USB**    |
+| [firmware-mks-gen-l.hex](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-mks-gen-l.hex)                       | **USB**    |
 | **Elegoo - Boards**                                                                                                                                         |            |
 | [firmware-znp-robin-nano-dw-v2.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-znp-robin-nano-dw-v2.bin) | **USB**    |
