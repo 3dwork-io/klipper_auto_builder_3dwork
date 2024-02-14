@@ -127,8 +127,7 @@ compile_btt-skr-2-429() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries="/home/pi/printer_data/config"
-/firmware_binaries/firmware-btt-skr-2-429.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries=/firmware_binaries/firmware-btt-skr-2-429.bin
 }
 
 compile_btt-skr-2-407() {
@@ -137,8 +136,7 @@ compile_btt-skr-2-407() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries="/home/pi/printer_data/config"
-/firmware_binaries/firmware-btt-skr-2-407.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-skr-2-407.bin
 }
 
 compile_btt_ebb42_10() {
@@ -165,8 +163,7 @@ compile_btt_ebb42_11() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries="/home/pi/printer_data/config"
-/firmware_binaries/firmware-btt-ebb42-11.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-ebb42-11.bin
 }
 
 compile_btt_ebb36_11() {
@@ -175,8 +172,7 @@ compile_btt_ebb36_11() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries="/home/pi/printer_data/config"
-/firmware_binaries/firmware-btt-ebb36-11.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-ebb36-11.bin
 }
 
 compile_btt_ebb42_12() {
@@ -257,8 +253,7 @@ compile_btt-skr-3-ez-h723() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries="/home/pi/printer_data/config"
-/firmware_binaries/firmware-btt-skr-3-ez-h723.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-skr-3-ez-h723.bin
 }
 
 compile_btt-skrat-10() {
