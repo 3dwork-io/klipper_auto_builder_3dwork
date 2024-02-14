@@ -203,8 +203,7 @@ compile_mellow_fly_sht_42() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries="/home/pi/printer_data/config"
-/firmware_binaries/firmware-mellow-fly-sht-42.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-mellow-fly-sht-42.bin
 }
 
 compile_mellow_fly_sht_36() {
@@ -286,8 +285,7 @@ compile_znp_robin_nano_dw_v2() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries="/home/pi/printer_data/config"
-/firmware_binaries/firmware-znp-robin-nano-dw-v2.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-znp-robin-nano-dw-v2.bin
 }
 
 compile_mks-eagle-10() {
