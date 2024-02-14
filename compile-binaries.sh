@@ -1,7 +1,8 @@
 #!/bin/bash
 
 workspace_klipper="/home/runner/work/klipper_auto_builder_3dwork/klipper_auto_builder_3dwork/klipper"
-workspace_3dwork="/home/runner/work/klipper_auto_builder_3dwork/klipper_auto_builder_3dwork/"
+workspace_3dwork="/home/runner/work/klipper_auto_builder_3dwork/klipper_auto_builder_3dwork"
+workspace_firmware_binaries="/home/runner/work/klipper_auto_builder_3dwork/klipper_auto_builder_3dwork/3dwork-klipper"
 
 compile_btt-manta-e3ez() {
     echo "Compiling firmware for BTT Manta E3 EZ"
@@ -9,7 +10,7 @@ compile_btt-manta-e3ez() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-manta-e3ez.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-manta-e3ez.bin
 }
 
 compile_btt-manta-m4p() {
@@ -18,7 +19,7 @@ compile_btt-manta-m4p() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-manta-m4p.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-manta-m4p.bin
 }
 
 compile_btt-manta-m4p-22() {
@@ -27,7 +28,7 @@ compile_btt-manta-m4p-22() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-manta-m4p-22.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-manta-m4p-22.bin
 }
 
 compile_btt-manta-m8p() {
@@ -36,7 +37,7 @@ compile_btt-manta-m8p() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-manta-m8p.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-manta-m8p.bin
 }
 
 compile_btt-manta-m8p-11() {
@@ -45,7 +46,7 @@ compile_btt-manta-m8p-11() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-manta-m8p-11.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-manta-m8p-11.bin
 }
 
 compile_btt-octopus-max-ez() {
@@ -54,7 +55,7 @@ compile_btt-octopus-max-ez() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-octopus-max-ez.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-octopus-max-ez.bin
 }
 
 compile_btt-octopus-pro-446() {
@@ -63,7 +64,7 @@ compile_btt-octopus-pro-446() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-octopus-pro-446.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-octopus-pro-446.bin
 }
 
 compile_btt-octopus-pro-429() {
@@ -72,7 +73,7 @@ compile_btt-octopus-pro-429() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-octopus-pro-429.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binarie/firmware_binaries/firmware-btt-octopus-pro-429.bin
 }
 
 compile_btt-octopus-pro-h723() {
@@ -81,7 +82,7 @@ compile_btt-octopus-pro-h723() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-octopus-pro-h723.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-octopus-pro-h723.bin
 }
 
 compile_btt-octopus-11() {
@@ -90,7 +91,7 @@ compile_btt-octopus-11() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-octopus-11.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-octopus-11.bin
 }
 
 compile_btt-octopus-11-407() {
@@ -99,7 +100,7 @@ compile_btt-octopus-11-407() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-octopus-11-407.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-octopus-11-407.bin
 }
 
 compile_fysetc_spider() {
@@ -108,7 +109,7 @@ compile_fysetc_spider() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-fysetc-spider.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-fysetc-spider.bin
 }
 
 compile_skr_pro_12() {
@@ -117,7 +118,7 @@ compile_skr_pro_12() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-skr-pro-12.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-skr-pro-12.bin
 }
 
 compile_btt-skr-2-429() {
@@ -126,7 +127,8 @@ compile_btt-skr-2-429() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-skr-2-429.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries="/home/pi/printer_data/config"
+/firmware_binaries/firmware-btt-skr-2-429.bin
 }
 
 compile_btt-skr-2-407() {
@@ -135,7 +137,8 @@ compile_btt-skr-2-407() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-skr-2-407.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries="/home/pi/printer_data/config"
+/firmware_binaries/firmware-btt-skr-2-407.bin
 }
 
 compile_btt_ebb42_10() {
@@ -144,7 +147,7 @@ compile_btt_ebb42_10() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-ebb42-10.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-ebb42-10.bin
 }
 
 compile_btt_ebb36_10() {
@@ -153,7 +156,7 @@ compile_btt_ebb36_10() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-ebb36-10.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-ebb36-10.bin
 }
 
 compile_btt_ebb42_11() {
@@ -162,7 +165,8 @@ compile_btt_ebb42_11() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-ebb42-11.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries="/home/pi/printer_data/config"
+/firmware_binaries/firmware-btt-ebb42-11.bin
 }
 
 compile_btt_ebb36_11() {
@@ -171,7 +175,8 @@ compile_btt_ebb36_11() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-ebb36-11.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries="/home/pi/printer_data/config"
+/firmware_binaries/firmware-btt-ebb36-11.bin
 }
 
 compile_btt_ebb42_12() {
@@ -180,7 +185,7 @@ compile_btt_ebb42_12() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-ebb42-12.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-ebb42-12.bin
 }
 
 compile_btt_ebb36_12() {
@@ -189,7 +194,7 @@ compile_btt_ebb36_12() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-ebb36-12.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-ebb36-12.bin
 }
 
 compile_mellow_fly_sht_42() {
@@ -198,7 +203,8 @@ compile_mellow_fly_sht_42() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-mellow-fly-sht-42.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries="/home/pi/printer_data/config"
+/firmware_binaries/firmware-mellow-fly-sht-42.bin
 }
 
 compile_mellow_fly_sht_36() {
@@ -207,7 +213,7 @@ compile_mellow_fly_sht_36() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-mellow-fly-sht-36.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-mellow-fly-sht-36.bin
 }
 
 compile_btt_skr_mini_e3_30() {
@@ -216,7 +222,7 @@ compile_btt_skr_mini_e3_30() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-skr-mini-e3-30.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-skr-mini-e3-30.bin
 }
 
 compile_btt_skr_3() {
@@ -225,7 +231,7 @@ compile_btt_skr_3() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-skr-3.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-skr-3.bin
 }
 
 compile_btt-skr-3-h723() {
@@ -234,7 +240,7 @@ compile_btt-skr-3-h723() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-skr-3-h723.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-skr-3-h723.bin
 }
 
 compile_btt-skr-3-ez() {
@@ -243,7 +249,7 @@ compile_btt-skr-3-ez() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-skr-3-ez.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-skr-3-ez.bin
 }
 
 compile_btt-skr-3-ez-h723() {
@@ -252,7 +258,8 @@ compile_btt-skr-3-ez-h723() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-skr-3-ez-h723.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries="/home/pi/printer_data/config"
+/firmware_binaries/firmware-btt-skr-3-ez-h723.bin
 }
 
 compile_btt-skrat-10() {
@@ -261,7 +268,7 @@ compile_btt-skrat-10() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-skrat-10.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-skrat-10.bin
 }
 
 compile_btt-skr-14-turbo() {
@@ -270,7 +277,7 @@ compile_btt-skr-14-turbo() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-btt-skr-14-turbo.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-skr-14-turbo.bin
 }
 
 compile_znp_robin_nano_dw_v2() {
@@ -279,7 +286,8 @@ compile_znp_robin_nano_dw_v2() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-znp-robin-nano-dw-v2.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries="/home/pi/printer_data/config"
+/firmware_binaries/firmware-znp-robin-nano-dw-v2.bin
 }
 
 compile_mks-eagle-10() {
@@ -288,7 +296,7 @@ compile_mks-eagle-10() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-mks-eagle-10.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-mks-eagle-10.bin
 }
 
 compile_mks-robin-nano-30() {
@@ -297,7 +305,7 @@ compile_mks-robin-nano-30() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-mks-robin-nano-30.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-mks-robin-nano-30.bin
 }
 
 compile_mks-robin-nano-20() {
@@ -306,16 +314,16 @@ compile_mks-robin-nano-20() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_3dwork/firmware_binaries/firmware-mks-robin-nano-20.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-mks-robin-nano-20.bin
 }
 
 # Force script to exit if an error occurs
 set -e
 
-if [ ! -d "$workspace_3dwork/3dwork-klipper/firmware_binaries" ]
+if [ ! -d "$workspace_firmware_binaries/firmware_binaries" ]
 then
-    mkdir $workspace_3dwork/3dwork-klipper/firmware_binaries
-    chown -R $(whoami) $workspace_3dwork/3dwork-klipper/firmware_binaries
+    mkdir $workspace_firmware_binaries/firmware_binaries
+    chown -R $(whoami) $workspace_firmware_binaries/firmware_binaries
 fi
 
 
@@ -375,6 +383,6 @@ else
     fi
 fi
 
-chown -R $(whoami) $workspace_3dwork/3dwork-klipper/firmware_binaries/*.bin
+chown -R $(whoami) $workspace_firmware_binaries/firmware_binaries/*.bin
 
 popd
