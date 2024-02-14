@@ -73,7 +73,7 @@ compile_btt-octopus-pro-429() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binarie/firmware_binaries/firmware-btt-octopus-pro-429.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-octopus-pro-429.bin
 }
 
 compile_btt-octopus-pro-h723() {
