@@ -2,7 +2,7 @@
 
 > \[!WARNING\]  
 > Klipper binaries are created daily, **use at your own risk**. Review compilation badge for succesfully build!!!  
-> Suggested to take the config files and compile yourself, [compilation guide](https://klipper.3dwork.io/klipper/instalacion#creando-nuestro-firmware-klipper).  
+> Suggested to take the config files and compile yourself, [compilation guide](https://klipper.3dwork.io/klipper/instalacion#creando-nuestro-firmware-klipper).
 
 | ![3Dwork_Klipper_Compile_Binaries](https://github.com/3dwork-io/klipper_auto_builder_3dwork/actions/workflows/compile-binaries.yml/badge.svg)               | Serial     |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
@@ -41,5 +41,9 @@
 | **Mellow - Boards**                                                                                                                                         |            |
 | [firmware-mellow-fly-sht-36.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-mellow-fly-sht-36.bin)       | **USB**    |
 | [firmware-mellow-fly-sht-42.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-mellow-fly-sht-42.bin)       | **USB**    |
+| **MKS - Boards**                                                                                                                                            |            |
+| [firmware-mks-eagle-10.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-mks-eagle-10.bin)                 | **USB**    |
+| [firmware-mks-robin-nano-20.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-mks-robin-nano-20.bin)       | **USB**    |
+| [firmware-mks-robin-nano-30.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-mks-robin-nano-30.bin)       | **USB**    |
 | **Elegoo - Boards**                                                                                                                                         |            |
 | [firmware-znp-robin-nano-dw-v2.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-znp-robin-nano-dw-v2.bin) | **USB**    |
