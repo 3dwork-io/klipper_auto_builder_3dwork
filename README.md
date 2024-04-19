@@ -15,6 +15,7 @@
 | [firmware-btt-ebb42-11.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-ebb42-11.bin)                 | **USB**    |
 | [firmware-btt-ebb42-12.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-ebb42-12.bin)                 | **USB**    |
 | **Bigtreetech - Boards**                                                                                                                                    |            |
+| [firmware-btt-kraken-h723.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-kraken-h723.bin)           | **USB**    |
 | [firmware-btt-manta-e3ez.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-manta-e3ez.bin)             | **USB**    |
 | [firmware-btt-manta-m4p-22.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-manta-m4p-22.bin)         | **USB**    |
 | [firmware-btt-manta-m4p.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-manta-m4p.bin)               | **USB**    |
