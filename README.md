@@ -51,3 +51,5 @@
 | [firmware-artillery-ruby-12.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-artillery-ruby-12.bin)       | **USB**    |
 | **Elegoo - Boards**                                                                                                                                         |            |
 | [firmware-znp-robin-nano-dw-v2.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-znp-robin-nano-dw-v2.bin) | **USB**    |
+| Raspberry - Boards                                                                                                                                          |            |
+| [firmware-rpi-rp2040.u2f](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-rpi-rp2040.u2f)                     | **USB**    |
