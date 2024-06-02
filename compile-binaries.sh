@@ -452,7 +452,7 @@ if [ -z "$1" ]; then
     compile_mellow_fly_sht_36
     # Raspberry
     compile_rpi-rp2040
-    # LDO
+    # LDO 
     compile_ldo-leviathan-12
     # Toolheads
     compile_btt_ebb42_10
