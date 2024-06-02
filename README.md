@@ -15,10 +15,12 @@
 | [firmware-btt-ebb42-11.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-ebb42-11.bin)                 | **USB**    |
 | [firmware-btt-ebb42-12.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-ebb42-12.bin)                 | **USB**    |
 | **Bigtreetech - Boards**                                                                                                                                    |            |
-| [firmware-btt-kraken-h723.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-kraken-h723.bin)           | **USB**    |
+| [firmware-btt-kraken.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-kraken.bin)                     | **USB**    |
 | [firmware-btt-manta-e3ez.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-manta-e3ez.bin)             | **USB**    |
 | [firmware-btt-manta-m4p-22.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-manta-m4p-22.bin)         | **USB**    |
 | [firmware-btt-manta-m4p.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-manta-m4p.bin)               | **USB**    |
+| [firmware-btt-manta-m5p.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-manta-m5p.bin)               | **USB**    |
+| [firmware-btt-manta-m8p-20.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-manta-m8p-20.bin)         | **USB**    |
 | [firmware-btt-manta-m8p-11.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-manta-m8p-11.bin)         | **USB**    |
 | [firmware-btt-manta-m8p.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-manta-m8p.bin)               | **USB**    |
 | [firmware-btt-octopus-11-407.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-octopus-11-407.bin)     | **USB**    |
@@ -28,6 +30,7 @@
 | [firmware-btt-octopus-pro-446.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-octopus-pro-446.bin)   | **USB**    |
 | [firmware-btt-octopus-pro-h723.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-octopus-pro-h723.bin) | **USB**    |
 | [firmware-btt-skr-14-turbo.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-skr-14-turbo.bin)         | **USB**    |
+| [firmware-btt-skr-14.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-skr-14.bin)                     | **USB**    |
 | [firmware-btt-skr-2-407.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-skr-2-407.bin)               | **USB**    |
 | [firmware-btt-skr-2-429.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-skr-2-429.bin)               | **USB**    |
 | [firmware-btt-skr-3-ez-h723.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-skr-3-ez-h723.bin)       | **USB**    |
@@ -39,6 +42,7 @@
 | [firmware-btt-skrat-10.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-btt-skrat-10.bin)                 | **USB**    |
 | **Fysetc - Boards**                                                                                                                                         |            |
 | [firmware-fysetc-spider.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-fysetc-spider.bin)               | **USB**    |
+| [firmware-fysetc-spider-22.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-fysetc-spider-22.bin)         | **USB**    |
 | **Mellow - Boards**                                                                                                                                         |            |
 | [firmware-mellow-fly-sht-36.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-mellow-fly-sht-36.bin)       | **USB**    |
 | [firmware-mellow-fly-sht-42.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-mellow-fly-sht-42.bin)       | **USB**    |
@@ -53,3 +57,5 @@
 | [firmware-znp-robin-nano-dw-v2.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-znp-robin-nano-dw-v2.bin) | **USB**    |
 | Raspberry - Boards                                                                                                                                          |            |
 | [firmware-rpi-rp2040.u2f](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-rpi-rp2040.u2f)                     | **USB**    |
+| LDO - Boards                                                                                                                                                |            |
+| [firmware-ldo-leviathan-12.bin](https://github.com/3dwork-io/klipper_auto_builder_3dwork/blob/main/firmware_binaries/firmware-ldo-leviathan-12.bin)         | **USB**    |
