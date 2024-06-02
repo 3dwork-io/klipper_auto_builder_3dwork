@@ -328,13 +328,13 @@ compile_artillery-ruby-12() {
     cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-artillery-ruby-12.bin
 }
 
-compile_btt-kraken-h723() {
-    echo "Compiling firmware for BTT Kraken H723"
-    cp -f $workspace_3dwork/3dwork-klipper/boards/btt-kraken-h723/firmware.config $workspace_klipper/.config
+compile_btt-kraken() {
+    echo "Compiling firmware for BTT Kraken"
+    cp -f $workspace_3dwork/3dwork-klipper/boards/btt-kraken/firmware.config $workspace_klipper/.config
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-kraken-h723.bin
+    cp $workspace_klipper/out/klipper.bin $workspace_firmware_binaries/firmware_binaries/firmware-btt-kraken.bin
 }
 
 compile_rpi-rp2040() {
