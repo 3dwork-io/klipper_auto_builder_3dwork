@@ -487,10 +487,19 @@ chown -R $(whoami) $workspace_firmware_binaries/firmware_binaries/*.bin
 echo "Generating CHANGELOG.md entry..."
 # Get current date in EU/Madrid format (DD/MM/YYYY HH:MM)
 current_date=$(TZ=Europe/Madrid date "+%d/%m/%Y %H:%M")
-# Get Klipper version
+# Get Klipper version information
 cd $workspace_klipper
-klipper_version=$(git describe --always --tags)
+klipper_commit=$(git describe --always --tags)
+# Get human-readable version from git tag
+klipper_human_version=$(git describe --tags --abbrev=0 | sed 's/^v//')
+# If no tag is found, use the commit hash as the version
+if [ -z "$klipper_human_version" ]; then
+    klipper_human_version=$klipper_commit
+fi
 cd - > /dev/null
+
+# Create GitHub repository link
+github_link="https://github.com/Klipper3d/klipper/commit/$klipper_commit"
 
 # Create or update CHANGELOG.md
 changelog_file="$workspace_firmware_binaries/CHANGELOG.md"
@@ -503,7 +512,7 @@ fi
 temp_file=$(mktemp)
 head -n 2 "$changelog_file" > "$temp_file"
 echo "## $current_date" >> "$temp_file"
-echo "- Generated firmware binaries with Klipper version: $klipper_version" >> "$temp_file"
+echo "- Generated firmware binaries with Klipper version: [$klipper_commit]($github_link) (v$klipper_human_version)" >> "$temp_file"
 echo "" >> "$temp_file"
 tail -n +3 "$changelog_file" >> "$temp_file" 2>/dev/null || true
 mv "$temp_file" "$changelog_file"
