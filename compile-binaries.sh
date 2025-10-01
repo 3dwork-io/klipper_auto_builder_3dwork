@@ -480,6 +480,34 @@ else
     fi
 fi
 
+# Set ownership of binary files
 chown -R $(whoami) $workspace_firmware_binaries/firmware_binaries/*.bin
+
+# Generate CHANGELOG.md entry
+echo "Generating CHANGELOG.md entry..."
+# Get current date in EU/Madrid format (DD/MM/YYYY HH:MM)
+current_date=$(TZ=Europe/Madrid date "+%d/%m/%Y %H:%M")
+# Get Klipper version
+cd $workspace_klipper
+klipper_version=$(git describe --always --tags)
+cd - > /dev/null
+
+# Create or update CHANGELOG.md
+changelog_file="$workspace_firmware_binaries/CHANGELOG.md"
+if [ ! -f "$changelog_file" ]; then
+    echo "# Klipper Firmware Binaries Changelog" > "$changelog_file"
+    echo "" >> "$changelog_file"
+fi
+
+# Add new entry at the beginning of the file (after the header)
+temp_file=$(mktemp)
+head -n 2 "$changelog_file" > "$temp_file"
+echo "## $current_date" >> "$temp_file"
+echo "- Generated firmware binaries with Klipper version: $klipper_version" >> "$temp_file"
+echo "" >> "$temp_file"
+tail -n +3 "$changelog_file" >> "$temp_file" 2>/dev/null || true
+mv "$temp_file" "$changelog_file"
+
+echo "CHANGELOG.md updated with Klipper version: $klipper_version"
 
 popd
