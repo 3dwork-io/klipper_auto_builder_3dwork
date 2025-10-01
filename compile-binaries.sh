@@ -490,12 +490,14 @@ current_date=$(TZ=Europe/Madrid date "+%d/%m/%Y %H:%M")
 # Get Klipper version information
 cd $workspace_klipper
 klipper_commit=$(git describe --always --tags)
-# Get human-readable version from git tag
-klipper_human_version=$(git describe --tags --abbrev=0 | sed 's/^v//')
-# If no tag is found, use the commit hash as the version
-if [ -z "$klipper_human_version" ]; then
-    klipper_human_version=$klipper_commit
-fi
+# Get latest release tag (v0.x.x format)
+klipper_release_tag=$(git tag -l "v0.*" | sort -V | tail -n 1)
+# Remove 'v' prefix if present
+klipper_release_version=${klipper_release_tag#v}
+# Extract short commit hash (first 7 characters)
+klipper_short_hash=$(echo $klipper_commit | cut -c1-7)
+# Combine release version with commit hash
+klipper_human_version="${klipper_release_version}.${klipper_short_hash}"
 cd - > /dev/null
 
 # Create GitHub repository link
@@ -512,7 +514,7 @@ fi
 temp_file=$(mktemp)
 head -n 2 "$changelog_file" > "$temp_file"
 echo "## $current_date" >> "$temp_file"
-echo "- Generated firmware binaries with Klipper version: [$klipper_commit]($github_link) (v$klipper_human_version)" >> "$temp_file"
+echo "- Generated firmware binaries with Klipper version: [$klipper_short_hash]($github_link) (v$klipper_human_version)" >> "$temp_file"
 echo "" >> "$temp_file"
 tail -n +3 "$changelog_file" >> "$temp_file" 2>/dev/null || true
 mv "$temp_file" "$changelog_file"
