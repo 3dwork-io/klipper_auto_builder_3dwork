@@ -352,7 +352,7 @@ compile_rpi-rp2040() {
     make olddefconfig
     make clean
     make
-    cp $workspace_klipper/out/klipper.uf2 $workspace_firmware_binaries/firmware_binaries/firmware-rpi-rp2040.u2f
+    cp $workspace_klipper/out/klipper.elf.hex $workspace_firmware_binaries/firmware_binaries/firmware-rpi-rp2040.u2f
 }
 
 
