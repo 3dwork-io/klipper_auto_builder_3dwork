@@ -8,6 +8,12 @@ on:
       - main
     paths:
       - 'compile-binaries.sh'
+  workflow_dispatch:
+    inputs:
+      board:
+        description: 'Board to compile (leave empty for all boards)'
+        required: false
+        default: ''
 permissions:
   contents: write
   issues: write
@@ -47,7 +53,7 @@ jobs:
       - name: Compile Klipper Firmware for Boards
         run: | 
           chmod +x ${{ github.workspace }}/3dwork-klipper/compile-binaries.sh
-          ${{ github.workspace }}/3dwork-klipper/compile-binaries.sh
+          ${{ github.workspace }}/3dwork-klipper/compile-binaries.sh ${{ github.event.inputs.board }}
 
       - name: Shows files content 2
         run: |
