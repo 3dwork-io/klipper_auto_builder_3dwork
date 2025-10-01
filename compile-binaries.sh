@@ -1,8 +1,17 @@
 #!/bin/bash
- 
-workspace_klipper="/home/runner/work/klipper_auto_builder_3dwork/klipper_auto_builder_3dwork/klipper"
-workspace_3dwork="/home/runner/work/klipper_auto_builder_3dwork/klipper_auto_builder_3dwork"
-workspace_firmware_binaries="/home/runner/work/klipper_auto_builder_3dwork/klipper_auto_builder_3dwork/3dwork-klipper"
+
+# Use GitHub Actions environment variables for paths
+if [ -n "$GITHUB_WORKSPACE" ]; then
+    # Running in GitHub Actions
+    workspace_klipper="$GITHUB_WORKSPACE/klipper"
+    workspace_3dwork="$GITHUB_WORKSPACE/3dwork-klipper"
+    workspace_firmware_binaries="$GITHUB_WORKSPACE/3dwork-klipper"
+else
+    # Running locally
+    workspace_klipper="/home/runner/work/klipper_auto_builder_3dwork/klipper_auto_builder_3dwork/klipper"
+    workspace_3dwork="/home/runner/work/klipper_auto_builder_3dwork/klipper_auto_builder_3dwork"
+    workspace_firmware_binaries="/home/runner/work/klipper_auto_builder_3dwork/klipper_auto_builder_3dwork/3dwork-klipper"
+fi
 
 compile_btt-manta-e3ez() {
     echo "Compiling firmware for BTT Manta E3 EZ"
