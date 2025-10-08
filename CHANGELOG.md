@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 08/10/2025 02:44
+- Generated firmware binaries with Klipper version: [d55baaf](https://github.com/Klipper3d/klipper/commit/d55baaf) (v.d55baaf)
+
 ## 07/10/2025 02:45
 - Generated firmware binaries with Klipper version: [b7602ff](https://github.com/Klipper3d/klipper/commit/b7602ff) (v.b7602ff)
 
