@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 09/10/2025 02:46
+- Generated firmware binaries with Klipper version: [e87de2a](https://github.com/Klipper3d/klipper/commit/e87de2a) (v.e87de2a)
+
 ## 08/10/2025 02:44
 - Generated firmware binaries with Klipper version: [d55baaf](https://github.com/Klipper3d/klipper/commit/d55baaf) (v.d55baaf)
 
