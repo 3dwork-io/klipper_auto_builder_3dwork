@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 10/10/2025 02:46
+- Generated firmware binaries with Klipper version: [6269dda](https://github.com/Klipper3d/klipper/commit/6269dda) (v.6269dda)
+
 ## 09/10/2025 02:46
 - Generated firmware binaries with Klipper version: [e87de2a](https://github.com/Klipper3d/klipper/commit/e87de2a) (v.e87de2a)
 
