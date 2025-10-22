@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 22/10/2025 02:49
+- Generated firmware binaries with Klipper version: [7a723bd](https://github.com/Klipper3d/klipper/commit/7a723bd) (v.7a723bd)
+
 ## 21/10/2025 02:49
 - Generated firmware binaries with Klipper version: [7a723bd](https://github.com/Klipper3d/klipper/commit/7a723bd) (v.7a723bd)
 
