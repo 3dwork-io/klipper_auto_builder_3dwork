@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 11/11/2025 01:48
+- Generated firmware binaries with Klipper version: [db7acaa](https://github.com/Klipper3d/klipper/commit/db7acaa) (v.db7acaa)
+
 ## 10/11/2025 01:51
 - Generated firmware binaries with Klipper version: [db7acaa](https://github.com/Klipper3d/klipper/commit/db7acaa) (v.db7acaa)
 
