@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 12/11/2025 01:48
+- Generated firmware binaries with Klipper version: [ecccd21](https://github.com/Klipper3d/klipper/commit/ecccd21) (v.ecccd21)
+
 ## 11/11/2025 01:48
 - Generated firmware binaries with Klipper version: [db7acaa](https://github.com/Klipper3d/klipper/commit/db7acaa) (v.db7acaa)
 
