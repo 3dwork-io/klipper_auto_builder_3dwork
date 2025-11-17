@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 17/11/2025 01:49
+- Generated firmware binaries with Klipper version: [edaa614](https://github.com/Klipper3d/klipper/commit/edaa614) (v.edaa614)
+
 ## 16/11/2025 01:51
 - Generated firmware binaries with Klipper version: [edaa614](https://github.com/Klipper3d/klipper/commit/edaa614) (v.edaa614)
 
