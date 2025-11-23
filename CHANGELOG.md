@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 23/11/2025 01:55
+- Generated firmware binaries with Klipper version: [baf188b](https://github.com/Klipper3d/klipper/commit/baf188b) (v.baf188b)
+
 ## 22/11/2025 01:46
 - Generated firmware binaries with Klipper version: [baf188b](https://github.com/Klipper3d/klipper/commit/baf188b) (v.baf188b)
 
