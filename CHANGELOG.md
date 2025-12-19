@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 19/12/2025 01:51
+- Generated firmware binaries with Klipper version: [a8cbc93](https://github.com/Klipper3d/klipper/commit/a8cbc93) (v.a8cbc93)
+
 ## 18/12/2025 01:46
 - Generated firmware binaries with Klipper version: [a8cbc93](https://github.com/Klipper3d/klipper/commit/a8cbc93) (v.a8cbc93)
 
