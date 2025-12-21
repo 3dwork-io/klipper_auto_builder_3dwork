@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 21/12/2025 01:55
+- Generated firmware binaries with Klipper version: [dc622f4](https://github.com/Klipper3d/klipper/commit/dc622f4) (v.dc622f4)
+
 ## 20/12/2025 01:48
 - Generated firmware binaries with Klipper version: [dc622f4](https://github.com/Klipper3d/klipper/commit/dc622f4) (v.dc622f4)
 
