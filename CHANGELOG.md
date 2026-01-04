@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 04/01/2026 01:58
+- Generated firmware binaries with Klipper version: [e60fe3d](https://github.com/Klipper3d/klipper/commit/e60fe3d) (v.e60fe3d)
+
 ## 03/01/2026 01:49
 - Generated firmware binaries with Klipper version: [e60fe3d](https://github.com/Klipper3d/klipper/commit/e60fe3d) (v.e60fe3d)
 
