@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 08/01/2026 01:52
+- Generated firmware binaries with Klipper version: [e605fd1](https://github.com/Klipper3d/klipper/commit/e605fd1) (v.e605fd1)
+
 ## 07/01/2026 01:52
 - Generated firmware binaries with Klipper version: [abda66d](https://github.com/Klipper3d/klipper/commit/abda66d) (v.abda66d)
 
