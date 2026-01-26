@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 26/01/2026 01:58
+- Generated firmware binaries with Klipper version: [c9d904a](https://github.com/Klipper3d/klipper/commit/c9d904a) (v.c9d904a)
+
 ## 25/01/2026 01:59
 - Generated firmware binaries with Klipper version: [48f0b3c](https://github.com/Klipper3d/klipper/commit/48f0b3c) (v.48f0b3c)
 
