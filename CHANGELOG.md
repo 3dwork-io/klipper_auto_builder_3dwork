@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 15/02/2026 02:08
+- Generated firmware binaries with Klipper version: [57c2e0c](https://github.com/Klipper3d/klipper/commit/57c2e0c) (v.57c2e0c)
+
 ## 14/02/2026 02:02
 - Generated firmware binaries with Klipper version: [8a210d2](https://github.com/Klipper3d/klipper/commit/8a210d2) (v.8a210d2)
 
