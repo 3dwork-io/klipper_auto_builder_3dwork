@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 12/04/2026 03:19
+- Generated firmware binaries with Klipper version: [35ace52](https://github.com/Klipper3d/klipper/commit/35ace52) (v.35ace52)
+
 ## 11/04/2026 03:11
 - Generated firmware binaries with Klipper version: [35ace52](https://github.com/Klipper3d/klipper/commit/35ace52) (v.35ace52)
 
