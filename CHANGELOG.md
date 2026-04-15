@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 15/04/2026 03:17
+- Generated firmware binaries with Klipper version: [aea1bcf](https://github.com/Klipper3d/klipper/commit/aea1bcf) (v.aea1bcf)
+
 ## 14/04/2026 03:19
 - Generated firmware binaries with Klipper version: [aea1bcf](https://github.com/Klipper3d/klipper/commit/aea1bcf) (v.aea1bcf)
 
