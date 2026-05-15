@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 15/05/2026 03:54
+- Generated firmware binaries with Klipper version: [ca8230d](https://github.com/Klipper3d/klipper/commit/ca8230d) (v.ca8230d)
+
 ## 14/05/2026 03:56
 - Generated firmware binaries with Klipper version: [4767a8e](https://github.com/Klipper3d/klipper/commit/4767a8e) (v.4767a8e)
 
