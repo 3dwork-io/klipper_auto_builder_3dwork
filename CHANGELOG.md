@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 29/05/2026 03:58
+- Generated firmware binaries with Klipper version: [b7c0329](https://github.com/Klipper3d/klipper/commit/b7c0329) (v.b7c0329)
+
 ## 28/05/2026 03:36
 - Generated firmware binaries with Klipper version: [b7c0329](https://github.com/Klipper3d/klipper/commit/b7c0329) (v.b7c0329)
 
