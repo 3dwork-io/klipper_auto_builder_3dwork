@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 14/06/2026 04:14
+- Generated firmware binaries with Klipper version: [430a2a8](https://github.com/Klipper3d/klipper/commit/430a2a8) (v.430a2a8)
+
 ## 13/06/2026 04:04
 - Generated firmware binaries with Klipper version: [430a2a8](https://github.com/Klipper3d/klipper/commit/430a2a8) (v.430a2a8)
 
