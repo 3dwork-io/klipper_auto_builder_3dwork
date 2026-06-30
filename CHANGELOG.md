@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 30/06/2026 04:02
+- Generated firmware binaries with Klipper version: [d6ea625](https://github.com/Klipper3d/klipper/commit/d6ea625) (v.d6ea625)
+
 ## 29/06/2026 04:08
 - Generated firmware binaries with Klipper version: [d6ea625](https://github.com/Klipper3d/klipper/commit/d6ea625) (v.d6ea625)
 
