@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 18/07/2026 03:16
+- Generated firmware binaries with Klipper version: [f604aee](https://github.com/Klipper3d/klipper/commit/f604aee) (v.f604aee)
+
 ## 17/07/2026 03:24
 - Generated firmware binaries with Klipper version: [f604aee](https://github.com/Klipper3d/klipper/commit/f604aee) (v.f604aee)
 
