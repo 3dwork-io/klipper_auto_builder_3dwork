@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 30/07/2026 03:14
+- Generated firmware binaries with Klipper version: [d7cea5b](https://github.com/Klipper3d/klipper/commit/d7cea5b) (v.d7cea5b)
+
 ## 29/07/2026 03:21
 - Generated firmware binaries with Klipper version: [d7cea5b](https://github.com/Klipper3d/klipper/commit/d7cea5b) (v.d7cea5b)
 
