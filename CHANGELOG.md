@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 26/08/2026 02:34
+- Generated firmware binaries with Klipper version: [ac2a7f8](https://github.com/Klipper3d/klipper/commit/ac2a7f8) (v.ac2a7f8)
+
 ## 25/08/2026 02:33
 - Generated firmware binaries with Klipper version: [ac2a7f8](https://github.com/Klipper3d/klipper/commit/ac2a7f8) (v.ac2a7f8)
 
