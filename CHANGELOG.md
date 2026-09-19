@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 19/09/2026 03:53
+- Generated firmware binaries with Klipper version: [ad425fc](https://github.com/Klipper3d/klipper/commit/ad425fc) (v.ad425fc)
+
 ## 18/09/2026 03:48
 - Generated firmware binaries with Klipper version: [ad425fc](https://github.com/Klipper3d/klipper/commit/ad425fc) (v.ad425fc)
 
