@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 26/09/2026 04:14
+- Generated firmware binaries with Klipper version: [ce7002b](https://github.com/Klipper3d/klipper/commit/ce7002b) (v.ce7002b)
+
 ## 25/09/2026 04:07
 - Generated firmware binaries with Klipper version: [ce7002b](https://github.com/Klipper3d/klipper/commit/ce7002b) (v.ce7002b)
 
