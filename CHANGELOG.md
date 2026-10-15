@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 15/10/2026 04:04
+- Generated firmware binaries with Klipper version: [9cb9975](https://github.com/Klipper3d/klipper/commit/9cb9975) (v.9cb9975)
+
 ## 14/10/2026 04:22
 - Generated firmware binaries with Klipper version: [9cb9975](https://github.com/Klipper3d/klipper/commit/9cb9975) (v.9cb9975)
 
