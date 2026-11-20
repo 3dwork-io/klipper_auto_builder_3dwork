@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 20/11/2026 05:39
+- Generated firmware binaries with Klipper version: [b670adc](https://github.com/Klipper3d/klipper/commit/b670adc) (v.b670adc)
+
 ## 19/11/2026 05:45
 - Generated firmware binaries with Klipper version: [a867593](https://github.com/Klipper3d/klipper/commit/a867593) (v.a867593)
 
