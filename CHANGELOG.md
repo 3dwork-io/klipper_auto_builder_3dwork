@@ -1,5 +1,8 @@
 # Klipper Firmware Binaries Changelog
 
+## 21/11/2026 05:29
+- Generated firmware binaries with Klipper version: [c9559fa](https://github.com/Klipper3d/klipper/commit/c9559fa) (v.c9559fa)
+
 ## 20/11/2026 05:39
 - Generated firmware binaries with Klipper version: [b670adc](https://github.com/Klipper3d/klipper/commit/b670adc) (v.b670adc)
 
